@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <scenes>
-        <!--Fallback Table-->
+        <!--FallbackTable-->
         <scene sceneID="2Jz-Vc-OO0">
             <objects>
                 <tableViewController id="oHq-vl-mDv" customClass="MyTableViewController" sceneMemberID="viewController">
@@ -17,7 +17,7 @@
                             <outlet property="delegate" destination="oHq-vl-mDv" id="z4E-qX-IUW"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Fallback Table" id="uG6-Cp-efP"/>
+                    <navigationItem key="navigationItem" title="FallbackTable" id="uG6-Cp-efP"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y1t-lz-ja2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
