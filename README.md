@@ -1,6 +1,8 @@
 # FallbackTable
 Subclass of UITableViewController for showing empty data sets when there is no content to display.
 
+![screenshot](screenshot.png)
+
 ###How do I use this?
 
 1. Drag-and-drop the "FallbackTable" folder into your Xcode project. I suggest you check the box for "Copy items if needed", select "Create groups", and check the box to add it to your target.
