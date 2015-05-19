@@ -20,3 +20,7 @@ Subclass of UITableViewController for showing empty data sets when there is no c
     [self.fallbackView.button addTarget:self action:@selector(fallbackButtonTapped) forControlEvents:UIControlEventTouchUpInside];
 }
 ```
+
+### License
+
+The MIT License (MIT)
