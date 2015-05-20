@@ -14,5 +14,9 @@
 @property (strong, nonatomic) IBOutlet UILabel *titleLabel;
 @property (strong, nonatomic) IBOutlet UILabel *detailLabel;
 @property (strong, nonatomic) IBOutlet UIButton *button;
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *imageViewHeightConstraint;
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *imageViewWidthConstraint;
+
+- (void)fitImageViewConstraintsToImage;
 
 @end

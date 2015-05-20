@@ -69,6 +69,8 @@
                 <outlet property="button" destination="O0X-aL-76X" id="tp0-rS-8eM"/>
                 <outlet property="detailLabel" destination="C3C-mz-Hdw" id="5Oo-6f-Wd5"/>
                 <outlet property="imageView" destination="Nej-fP-DSp" id="TyW-pr-7cM"/>
+                <outlet property="imageViewHeightConstraint" destination="woJ-lB-8K1" id="qqN-3x-F2N"/>
+                <outlet property="imageViewWidthConstraint" destination="5DF-dQ-GfT" id="P7R-VE-KA8"/>
                 <outlet property="titleLabel" destination="DC3-aU-TOJ" id="mpw-hL-7FU"/>
             </connections>
             <point key="canvasLocation" x="231" y="421"/>

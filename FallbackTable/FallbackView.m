@@ -10,4 +10,9 @@
 
 @implementation FallbackView
 
+- (void)fitImageViewConstraintsToImage {
+    self.imageViewHeightConstraint.constant = self.imageView.image.size.height;
+    self.imageViewWidthConstraint.constant = self.imageView.image.size.width;
+}
+
 @end
