@@ -15,7 +15,8 @@ Subclass of UITableViewController for showing empty data sets when there is no c
     
     self.fallbackView.titleLabel.text = @"No Data";
     self.fallbackView.detailLabel.text = @"You don't have any data yet.";
-    self.fallbackView.imageView.backgroundColor = [UIColor darkGrayColor];
+    self.fallbackView.imageView.image = [UIImage imageNamed:@"notebook"];
+    [self.fallbackView fitImageViewConstraintsToImage];
     [self.fallbackView.button setTitle:@"Reload" forState:UIControlStateNormal];
     [self.fallbackView.button addTarget:self action:@selector(fallbackButtonTapped) forControlEvents:UIControlEventTouchUpInside];
 }
