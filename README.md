@@ -24,3 +24,7 @@ Subclass of UITableViewController for showing empty data sets when there is no c
 ### License
 
 The MIT License (MIT)
+
+### Attribution
+
+The notebook icon used in this project is from [PixelLove.com](http://www.pixellove.com/), provided under a [Creative Commons Attribution NoDerivatives 4.0 International license](http://creativecommons.org/licenses/by-nd/4.0/legalcode). No changes were made to the icon.
